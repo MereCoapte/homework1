@@ -1,0 +1,148 @@
+body{
+    background-image: url(../imagini/backgroundblur.jpg);
+    backdrop-filter: blur(4px);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    grid-gap: 2%;
+}
+
+.text {
+    text-align: center;
+    color: white;
+    margin-top: 75px;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row: 1;
+}
+
+.text h1{
+    color: #FFF;
+    font-family: 'Inter Bold', sans-serif;
+    font-size: 90px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.text h3{
+    color: #FFF;
+    font-family: 'Inter Bold', sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.username {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    background: #FFF;
+    margin-left: 25%;
+    margin-bottom: 20%;
+}
+
+.username svg{
+    margin-top: 5%;
+}
+
+.username h4{
+    color: #979797;
+    font-family: 'Inter Bold', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.username p{
+    color: #B8B8B8;
+    text-align: center;
+    font-family: 'Inter Bold', sans-serif;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-bottom: 20%;
+}
+
+.password{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    background: #FFF;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 20%;
+}
+
+.password svg{
+    margin-top: 5%;
+}
+
+.password h4{
+    color: #979797;
+    font-family: 'Inter Bold', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.password p{
+    color: #B8B8B8;
+    text-align: center;
+    font-family: 'Inter Bold', sans-serif;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-bottom: 20%;
+}
+
+.mail{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    background: #FFF;
+    margin-right: 25%;
+    margin-bottom: 20%;
+}
+
+.mail svg{
+    margin-top: 5%;
+}
+
+.mail h4{
+    color: #979797;
+    font-family: 'Inter Bold', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.mail p{
+    color: #B8B8B8;
+    text-align: center;
+    font-family: 'Inter Bold', sans-serif;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-bottom: 20%;
+}
